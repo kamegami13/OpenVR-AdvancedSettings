@@ -109,7 +109,7 @@ OverlayController::OverlayController( bool desktopMode,
     // format.setProfile( QSurfaceFormat::CompatibilityProfile );
     format.setDepthBufferSize( 16 );
     format.setStencilBufferSize( 8 );
-    format.setSamples( 16 );
+    // format.setSamples( 16 );
 
     m_pOpenGLContext.reset( new QOpenGLContext() );
     m_pOpenGLContext->setFormat( format );
